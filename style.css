@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;600;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('https://images.unsplash.com/photo-1607196707151-2db8b71294ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=747&q=80');
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position:center center;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    color: #fff;
+    margin: 0 60px 100px;
+    font-size: 4rem;
+}
+.countdown-container{
+display: flex;
+}
+
+.big-text{
+    font-weight: bold;
+    font-size: 6rem;
+    margin: 0 2rem;
+    color: #fff;
+}
+.C-all{
+    text-align: center;
+}
+.C-all span{
+    color: #fff;
+    font-size: 1.5rem;
+}
+@media only screen and (max-width: 1000px) {
+    h1{
+        margin: 100px 60px 10px;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .countdown-container{
+    flex-direction: column;
+    margin-bottom: 100px;
+    }
+    
+    .big-text{
+        font-size: 3rem;
+        margin: 0 2rem;
+    }
+    .C-all{
+        margin: 1rem 0;
+    }
+}
